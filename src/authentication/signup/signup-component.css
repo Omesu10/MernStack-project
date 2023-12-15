@@ -1,0 +1,23 @@
+.web-page{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+}
+.left-view{
+    display: grid;
+    background-color: rgba(184, 184, 232, 0.852);
+    padding-left: 1rem;
+    grid-template-rows: 1fr 3fr;
+
+}
+input{
+    outline: none;
+}
+.right-view{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    grid-template-rows: 2fr 6fr;
+
+}
